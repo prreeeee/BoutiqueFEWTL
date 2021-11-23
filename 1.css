@@ -1,0 +1,36 @@
+body{
+  color: aquamarine;
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 100%;
+    overflow: auto;
+  }
+  .sidebar a{
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  .card:hover{
+    background-color: #04AA6D;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  }
+  .card-title{
+    color: black;
+  }
+

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 30px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">BOUTIQUE</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="dash.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.amazon.in/b?node=1953602031&pf_rd_r=QJAN4Z3A2AZ6C1RH3XBX&pf_rd_p=305c19f9-0ed3-4a82-8be5-656245ec0858&pd_rd_r=5493f52d-77b2-40a5-8d7b-6dd1ad90e6a8&pd_rd_w=gzGPQ&pd_rd_wg=BmVVh&ref_=pd_gw_unk">Products</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  </div>
+
+<h2 style="text-align:center">The Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="E:\Desktop\FEWT\Boutique ISE\suraj.png" alt="Suraj" style="width:100%">
+      <div class="container">
+        <h2>Suraj Shete</h2>
+        <p class="title">B-Tech IT</p>
+        
+        <p>1805049@ritindia.edu</p>
+        <a href="contact.html"><p><button class="button">Contact Us</button></p></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="E:\Desktop\FEWT\Boutique ISE\sumit.png" alt="Sumit" style="width:100%">
+      <div class="container">
+        <h2>Sumit Waghmare</h2>
+        <p class="title">B-Tech IT</p>
+        
+        <p>1804052@ritindia.edu</p>
+        <a href="contact.html"><p><button class="button">Contact Us</button></p></a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="E:\Desktop\FEWT\Boutique ISE\priti.png" alt="Priti" style="width:100%">
+      <div class="container">
+        <h2>Priti Shinde</h2>
+        <p class="title">B-Tech IT</p>
+        
+        <p>1804010@ritindia.edu</p>
+        <a href="contact.html"><p><button class="button">Contact Us</button></p></a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="E:\Desktop\FEWT\Boutique ISE\nikki.png" alt="Nikhil" style="width:100%">
+      <div class="container">
+        <h2>Nikhil Rathod</h2>
+        <p class="title">B-Tech IT</p>
+        
+        <p>1804050@ritindia.edu</p>
+        <a href="contact.html"><p><button class="button">Contact Us</button></p></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
